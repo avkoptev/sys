@@ -1,0 +1,6 @@
+tls_server_config:
+  cert_file: /opt/prometheus_tls/prometheus.crt
+  key_file: /opt/prometheus_tls/prometheus.key
+
+basic_auth_users:
+       admin: '$2b$12$jkIBgu8Ki0YcRE2Yq0NRT.HlikN5NhwVi8.tvYbXagaVhnD0XG0ma'
